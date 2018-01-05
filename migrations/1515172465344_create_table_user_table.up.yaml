@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "user_table"("user_id" integer , "bitcoin_limit" numeric , PRIMARY
+      KEY ("user_id") )
+  type: run_sql
+- args:
+    name: user_table
+  type: add_existing_table_or_view
