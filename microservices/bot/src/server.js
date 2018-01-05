@@ -64,11 +64,7 @@ bot.on(['/rate'], msg => {
 		response = JSON.parse(response.body)
 		var rate = response.bpi.USD.rate
 
-		let replyMarkup = bot.keyboard([
-			['/rate', '/limit', '/help']
-		], { resize: true });
-
-		return bot.sendMessage(msg.from.id, "Current rate : $" + rate, {replyMarkup})
+		return bot.sendMessage(msg.from.id, "Current rate : $" + rate)
 	});
 
 });
