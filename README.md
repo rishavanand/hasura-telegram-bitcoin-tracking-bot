@@ -1,6 +1,6 @@
 # Building a Telegram Bot on Hasura
 
-This readme is about getting a Bitcoin Rate Tracking Telegram Bot to run on Hasura as quick as possible. This bot is also integrated with API from https://coindesk.com. Each command will have a description telling you what it does and also be sometimes accompanied by screenshots so that you know you are heading in the right direction.
+This readme is about getting a Bitcoin Rate Tracking Telegram Bot to run with Hasura as quick as possible. This bot is also integrated with API from https://coindesk.com. Each command will have a description telling you what it does and also be sometimes accompanied by screenshots so that you know you are heading in the right direction.
 
 There will also be links to provide you with more information on a topic. Do remember to follow them.
 
@@ -79,26 +79,22 @@ Now that our bot is ready. We need to find our bot.
 * Open telegram
 * Search for your bot by its username
 * Press /start
-* Then press /matches. This will give you a list of recent matches
-* Press on the link below any match to get the score
 
-![Bot interaction](https://github.com/rishavanand/hasura-telegram-bitcoin-tracking-bot/raw/master/assets/bot_interaction.gif "Bot interaction")
-
-## 6) Bot Commands
-
-* /start
+* ***/start***
 Starts the bot
 
-* /updatelimit [value]
-Example: /updatelimit 16000
-Sets the Bitcoin limit to 16000. You will be notifies when the rate falls below it.
+* ***/updatelimit [value]***
+Example: /updatelimit 17000.
+Sets the Bitcoin limit to 17000. You will be notified when the rate falls below it.
 
-* /limit
+* ***/limit***
 Sends your current set limit
 
-* /rate
-Sends curretn Bitcoin Rate
+* ***/rate***
+Sends current Bitcoin Rate
 
-* /help
+* ***/help***
 Sends list of available commands
+
+![Bot interaction](https://github.com/rishavanand/hasura-telegram-bitcoin-tracking-bot/raw/master/assets/bot_interaction.gif "Bot interaction")
 
