@@ -1,0 +1,16 @@
+{
+  "name": "telegram-bitcoin-tracking-bot",
+  "version": "1.0.0",
+  "description": "A telegram bot that sends you a notification when Bitcoin price drops below your set margin",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Rishav Anand",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.14.0",
+    "request": "^2.81.0",
+    "telebot": "^1.2.3"
+  }
+}
